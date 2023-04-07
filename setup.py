@@ -8,16 +8,16 @@ setuptools.setup(
     version="0.0.1",
     author="Herculano Cunha",
     author_email="herculanocm@outlook.com",
-    description="Data Engineer tips for pyspark",
+    description="Data Engineer tips for Airflow",
     download_url='https://github.com/herculanocm/mwaa-tips/archive/master.zip',
     long_description=long_description,
     long_description_content_type="text/markdown",
     packages=setuptools.find_packages(),
-     keywords='AWS Glue Glue3 tools tips',
+     keywords='AWS MWAA tips',
     classifiers=[
         "Programming Language :: Python :: 3",
         "License :: OSI Approved :: MIT License",
         "Operating System :: OS Independent",
     ],
-    python_requires='>=3.9'
+    python_requires='>=3.7'
 )
