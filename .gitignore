@@ -12,6 +12,8 @@
 /venv
 package-lock.json
 
+main.py
+
 # IDEs and editors
 /.idea
 .project
