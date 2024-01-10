@@ -19,6 +19,6 @@ setuptools.setup(
         "License :: OSI Approved :: MIT License",
         "Operating System :: OS Independent",
     ],
-    python_requires='>=3.9',
-    install_requires=['urllib3','slack-sdk==3.21.3']
+    python_requires='>=3.7',
+    install_requires=['urllib3','slack-sdk==3.21.3', 'boto3']
 )

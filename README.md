@@ -4,14 +4,14 @@ Methods Utils
 ## Ubuntu nested
 ```
 sudo add-apt-repository ppa:deadsnakes/ppa
-sudo apt install python3.9
-sudo apt install python3.9-distutils
+sudo apt install python3.7
+sudo apt install python3.7-distutils
 ```
 
 
 ## Create VirtualEnv
 ```
-virtualenv --python="/usr/bin/python3.9" "./venv"
+virtualenv --python="/usr/bin/python3.7" "./venv"
 ```
 
 ## Enable virtual
